@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+body > button, span{
+    font: 3em sans-serif;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    margin: auto 5px;
+    justify-content: center;
+}
+
+body > button{
+    cursor: pointer;
+}
+
